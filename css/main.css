@@ -1,0 +1,51 @@
+li {
+  text-align: center;
+  display: inline;
+  color: white;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  text-align: center;
+  background-color: #333;
+  padding: 5px 0;
+}
+
+li:hover {
+  background-color: yellow;
+  text-decoration: none;
+  border: white solid 1px;
+  padding: 20px 10px;
+  font-size: 20px;
+}
+
+li:hover a {
+  color: black;
+}
+
+nav li {
+  transition: 0.5s ease;
+}
+.buttons {
+  text-align: center;
+ }
+button {
+  background: purple;
+  border-color: black;
+  color: #87db41;
+  padding: 10px 5px;
+  width: 15%;
+  text-align: center;
+  outline: none;
+  target-name: new;
+  target-new: tab;
+}
+button:hover {
+  background-color: #400080e8;
+  color: white;
+}
